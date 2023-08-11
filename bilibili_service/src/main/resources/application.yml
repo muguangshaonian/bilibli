@@ -1,0 +1,8 @@
+#profile
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.mju.dao  #???
+spring:
+  profiles:
+    active: test
